@@ -26,7 +26,7 @@ let s:search_tools.a.default_opts =
       \ [
       \ '-i', '--nocolor', '--filename', '--noheading', '--column', '--hidden', '--ignore',
       \ '.hg', '--ignore', '.svn', '--ignore', '.git', '--ignore', '.bzr',
-      \ ]
+      \ ] + g:forbidgrepdir_ag
 let s:search_tools.a.recursive_opt = []
 let s:search_tools.a.expr_opt = []
 let s:search_tools.a.fixed_string_opt = ['-F']
